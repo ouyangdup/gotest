@@ -8,6 +8,6 @@ import (
 
 func main() {
     // Get a greeting message and print it.
-    message := greetings.Hello("Gladys")
+    message := sdk.Hello("Gladys")
     fmt.Println(message)
 }
